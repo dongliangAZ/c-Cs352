@@ -1,0 +1,6 @@
+echo "built t2" > _testTarg2 ; touch -t 160501011100.01 _testTarg2
+echo "built t3" > _testTarg3 ; touch -t 160501011100.00 _testTarg3
+echo "built t1" > _testTarg1 ; touch -t 160501011100.02 _testTarg1
+built t1
+built t2
+built t3

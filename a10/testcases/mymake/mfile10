@@ -1,0 +1,4 @@
+@target _testTarg1 : _testDep1 _testDep2
+@cmd echo "built 1" > _testTarg1 ; touch -t 160501011100.01 _testTarg1
+@target _testTarg2 : _testDep3 _testDep4
+@cmd echo "built 2" > _testTarg2 ; touch -t 160501011100.01 _testTarg2

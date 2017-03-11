@@ -1,0 +1,5 @@
+iload t
+iconst 8
+isub
+imul
+

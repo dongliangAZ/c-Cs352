@@ -1,0 +1,8 @@
+
+
+
+
+@target t1 : d1 d2
+@cmd touch t1
+@target t2 : d3 d4
+@cmd touch t2

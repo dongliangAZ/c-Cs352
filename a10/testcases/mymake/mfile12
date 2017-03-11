@@ -1,0 +1,4 @@
+       @target _testTarg1 : _testDep1
+@cmd echo "built 1" > _testTarg1 ; 
+touch -t 160501011100.01 
+_testTarg1

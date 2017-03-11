@@ -1,0 +1,14 @@
+./spellcheck -d tests/realdic
+./spellcheck -d tests/realdic -u
+./spellcheck -d tests/dic -i tests/input -u
+./spellcheck -d tests/input -d tests/dic -u
+./spellcheck -d tests/dic -i tests/input
+./spellcheck -d tests/input -d tests/dic
+./spellcheck -d tests/realdic -u < tests/inp
+./spellcheck -d -u tests/realdic
+./spellcheck -d tests/realdic -i tests/-i
+./spellcheck -u -d tests/-uu -i tests/inp
+./spellcheck -d youcantopenitatall -u -i tests/input
+./spellcheck -d tests/realdic -u -i youreallycannotopenthis
+./spellcheck -u -d 
+./spellcheck -d tests/dic -i tests/input -u whatsup

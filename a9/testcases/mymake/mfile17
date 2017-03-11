@@ -1,0 +1,19 @@
+  @target t1 : 
+ d5 
+	d2
+@cmd touch
+		 t1
+@target t2 : t3 
+t1 t4
+    @cmd touch t2
+@target t3 : d3 d1 d5
+@cmd		 touch t3
+@target t4 : d2 
+d4
+   @cmd touch 
+t4
+
+
+
+
+

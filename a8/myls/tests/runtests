@@ -1,0 +1,8 @@
+./myls
+./myls tests/sub
+./myls tests
+./myls sub
+./myls .
+./myls tests/sub sub
+./myls ~
+./myls cantopenthis

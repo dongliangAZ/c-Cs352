@@ -1,0 +1,10 @@
+iload a
+iconst 11
+   	idiv
+iload g
+isub   
+iload 			z
+		imul
+iconst 7
+iadd
+

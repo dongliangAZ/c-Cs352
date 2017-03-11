@@ -1,0 +1,8 @@
+iload f
+iload u
+iadd
+iload r
+idiv
+iload x
+isub
+

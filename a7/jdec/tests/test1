@@ -1,0 +1,4 @@
+iconst x
+iconst 5
+isub
+

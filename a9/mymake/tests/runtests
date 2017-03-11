@@ -1,0 +1,10 @@
+./mymake tests/make1 target1
+./mymake tests/make1 spellcheck
+./mymake tests/make1 spellcheck.o
+./mymake tests/make2 spellcheck
+./mymake tests/make3 spellcheck
+./mymake tests/make100 spellcheck
+./mymake tests/make3 spellcheck sss
+./mymake tests/make1 
+./mymake tests/make1 spellcheck spellcheck.o
+./mymake tests/make4 spellcheck

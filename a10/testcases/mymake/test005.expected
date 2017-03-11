@@ -1,0 +1,2 @@
+echo "build test 1" > _testTarg1 ; touch -t 160501011100.00 _testTarg1
+build test 1

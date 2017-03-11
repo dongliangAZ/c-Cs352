@@ -1,0 +1,4 @@
+@target _testTarg1 : _testDep1 _testDep2 
+@cmd bad command _testTarg1
+@target _testTarg2 : _testDep3 _testDep4 
+@cmd echo "built t2" > _testTarg2 ; touch -t 160501011100.00 _testTarg2

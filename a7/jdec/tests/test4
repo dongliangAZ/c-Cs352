@@ -1,0 +1,4 @@
+iconst 7
+iload 8
+imul
+
